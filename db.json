@@ -1,16 +1,26 @@
 {
   "name": "The 73756",
-  "avatar": "https://avatars.githubusercontent.com/u/94830363?v=4",
+  "avatar": "https://avatars.githubusercontent.com/u/94830363?s=100&v=4",
   "links": [
     {
-      "title": "Twitter",
-      "url": "https://twitter.com/The73756",
-      "icon": "https://avatars.githubusercontent.com/u/94830363?v=4"
+      "title": "Typescript",
+      "url": "https://www.typescriptlang.org/",
+      "icon": "https://static.cdnlogo.com/logos/t/96/typescript.svg"
     },
     {
-      "title": "GitHub",
-      "url": "https://github.com/The73756",
-      "icon": ""
+      "title": "React",
+      "url": "https://reactjs.org/",
+      "icon": "https://static.cdnlogo.com/logos/r/63/react.svg"
+    },
+    {
+      "title": "Next",
+      "url": "https://nextjs.org/",
+      "icon": "https://cdn.cdnlogo.com/logos/n/80/next-js.svg"
+    },
+    {
+      "title": "Versel",
+      "url": "https://vercel.com/",
+      "icon": "https://static.cdnlogo.com/logos/v/78/vercel.svg"
     }
   ],
   "socials": [

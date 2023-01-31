@@ -6,7 +6,7 @@ export default function Document() {
       <Head>
         <title>Next linktree</title>
       </Head>
-      <body className="bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-blue-700 via-blue-900 to-purple-900">
+      <body className="bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-blue-700 via-indigo-800 to-purple-900">
         <Main />
         <NextScript />
       </body>
