@@ -6,6 +6,7 @@ interface LinkCardProps {
   title: string;
   icon?: string;
 }
+
 const LinkCard: FC<LinkCardProps> = ({ url, title, icon }) => {
   return (
     <a

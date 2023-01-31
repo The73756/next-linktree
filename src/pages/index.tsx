@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import data from '../../db.json';
 import LinkCard from '@/components/LinkCard';
+import SocialCard from '@/components/SocialCard';
 
 export default function Home() {
   return (
@@ -10,6 +11,11 @@ export default function Home() {
       {data.links.map((link) => (
         <LinkCard {...link} key={link.url} />
       ))}
+      <div className="flex gap-1 flex-wrap max-w-xl justify-center mt-2 duration-200 ease-in-out">
+        {data.socials.map((link) => (
+          <SocialCard {...link} key={link.url} />
+        ))}
+      </div>
     </div>
   );
 }
