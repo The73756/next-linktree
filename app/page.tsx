@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import data from '../../db.json';
+import data from '../db.json';
 import LinkCard from '@/components/LinkCard';
 import SocialCard from '@/components/SocialCard';
 
