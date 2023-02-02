@@ -1,13 +1,8 @@
 import { FC } from 'react';
 import Image from 'next/image';
+import { ILink } from '../../types';
 
-interface LinkCardProps {
-  url: string;
-  title: string;
-  icon?: string;
-}
-
-const LinkCard: FC<LinkCardProps> = ({ url, title, icon }) => {
+const LinkCard: FC<ILink> = ({ url, title, icon }) => {
   return (
     <a
       className="flex text-center items-center bg-white p-1 h-[50px] rounded-sm w-full border border-gray-300 mb-2 rounded-md font-medium max-w-3xl hover:scale-[1.025] will-change-transform transition-transform duration-300 ease-in-out"
