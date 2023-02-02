@@ -1,5 +1,4 @@
 import { FC } from 'react';
-import sprite from '@/assets/icons/sprite.svg';
 
 interface SocialCardProps {
   title: string;
@@ -10,8 +9,8 @@ interface SocialCardProps {
 const SocialCard: FC<SocialCardProps> = ({ title, url, icon }) => {
   return (
     <a href={url} title={title}>
-      <svg className="w-11 h-11 fill-white hover:fill-gray-2  00 transition-colors trans">
-        <use xlinkHref={`${sprite}#${icon}`} />
+      <svg className="w-11 h-11 fill-white hover:fill-gray-200 transition-colors duration-300">
+        <use xlinkHref={`./sprite.svg#${icon}`} />
       </svg>
     </a>
   );
